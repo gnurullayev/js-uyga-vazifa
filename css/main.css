@@ -1,0 +1,43 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    background-color: rgba(249, 218, 177, 0.5);
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;  
+}
+
+.container-inner {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto; 
+    text-align: center;
+    padding-top: 100px;
+}
+
+.title {
+    font-size: 35px;
+    color: rgb(248, 147, 15);
+    margin-bottom: 25px;
+}
+
+.text {
+    font-family: cursive;
+    font-size: 26px;
+    color: rgb(248, 120, 15);
+}
